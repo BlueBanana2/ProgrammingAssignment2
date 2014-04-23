@@ -1,4 +1,5 @@
-# The function creates a list object with the functions that are used to store and get the matrix iteself and to store and get the inverse of the matrix 
+## The function creates a list object with the functions that are used to store and get the matrix itself 
+## and to store and get the inverse of the matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -17,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The function checks, via the call of the function getinverse, if the inverse has been computed for the matrix. Otherwise it computes the inverse and returns it.
+## The function checks, via the call of the function getinverse, if the inverse has been 
+## computed for the matrix. Otherwise it computes the inverse and returns it.
 
 cacheSolve <- function(x) {
   m <- x$getinverse()
